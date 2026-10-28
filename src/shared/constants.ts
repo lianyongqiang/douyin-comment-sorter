@@ -1,0 +1,2 @@
+export const OBSERVER_DEBOUNCE_MS = 450;
+export const LOW_PARSE_SUCCESS_RATE = 0.45;

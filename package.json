@@ -1,0 +1,25 @@
+{
+  "name": "douyin-comment-sorter",
+  "version": "1.0.0",
+  "private": true,
+  "description": "直接在抖音原生评论区中，按点赞数或回复数整理当前已加载的主评论。",
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "dev": "node scripts/build.mjs --watch",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "devDependencies": {
+    "@types/chrome": "^0.0.321",
+    "esbuild": "^0.25.5",
+    "happy-dom": "^20.11.1",
+    "typescript": "^5.8.3",
+    "vitest": "^3.2.3"
+  },
+  "dependencies": {
+    "@phosphor-icons/core": "^2.1.1"
+  },
+  "license": "MIT"
+}
